@@ -24,3 +24,4 @@ group :development, :test do
   gem "shoulda-matchers"
   gem "simplecov", require: false
 end
+gem "rubocop-rails-omakase", "~> 1.1"
