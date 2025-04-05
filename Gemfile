@@ -1,5 +1,6 @@
 source "https://rubygems.org"
 
+gem "bcrypt", "~> 3.1"
 gem "bootsnap", require: false
 gem "kamal", require: false
 gem "pg", "~> 1.1"
