@@ -68,4 +68,9 @@ pt-BR:
       long: "%d de %B de %Y, %H:%M"
     am: "am"
     pm: "pm"
+
+  # Mailers
+  mailers:
+    password_reset:
+      subject: "Redefinição de senha"
     
