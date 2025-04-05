@@ -1,5 +1,7 @@
 # Omakase Ruby styling for Rails
-inherit_gem: { rubocop-rails-omakase: rubocop.yml }
+inherit_gem:
+  rubocop-rails-omakase: rubocop.yml
+  rubocop-shopify: rubocop.yml
 
 # Overwrite or add rules to create your own house style
 #
@@ -7,11 +9,10 @@ inherit_gem: { rubocop-rails-omakase: rubocop.yml }
 # Layout/SpaceInsideArrayLiteralBrackets:
 #   Enabled: false
 
-require:
+plugins:
   - rubocop-rails
   - rubocop-rspec
   - rubocop-performance
-  - rubocop-shopify
 
 AllCops:
   NewCops: enable
