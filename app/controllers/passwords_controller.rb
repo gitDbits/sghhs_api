@@ -6,7 +6,7 @@ class PasswordsController < ApplicationController
   end
 
   def create
-    if user = User.find_by(email: params[:email])
+    if user = User.find_by(email_address: params[:email_address])
       user.regenerate_token_for(:password_reset)
       PasswordsMailer.with(user: user).reset.deliver_later
     end
