@@ -35,7 +35,7 @@ pt-BR:
     attributes:
       user:
         name: "Nome"
-        email: "E-mail"
+        email_address: "E-mail"
         password: "Senha"
         password_confirmation: "Confirmação de senha"
       session:
