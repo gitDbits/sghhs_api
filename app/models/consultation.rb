@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class Consultation < ApplicationRecord
   enum status: { scheduled: 'scheduled', completed: 'completed', cancelled: 'cancelled' }
 

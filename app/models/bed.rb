@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class Bed < ApplicationRecord
   enum status: { available: 'available', occupied: 'occupied', maintenance: 'maintenance' }
 

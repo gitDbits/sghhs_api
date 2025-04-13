@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class ConsultationTypePolicy < ApplicationPolicy
   def index?
     true

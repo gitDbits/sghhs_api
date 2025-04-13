@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class HospitalizationPolicy < ApplicationPolicy
   def index?
     user.admin? || user.professional? || user.patient?

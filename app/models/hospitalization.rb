@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class Hospitalization < ApplicationRecord
   enum status: { active: 'active', discharged: 'discharged', transferred: 'transferred', cancelled: 'cancelled' }
 

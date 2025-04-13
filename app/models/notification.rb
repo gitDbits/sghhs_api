@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class Notification < ApplicationRecord
   enum delivery_channel: { email: 'email', sms: 'sms', push: 'push' }
 
